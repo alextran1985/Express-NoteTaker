@@ -19,7 +19,7 @@ notes.post('/', (req, res) => {
        notes,
       };
   
-      readAndAppend(newNotes, './db/notes.json');
+      readAndAppend(newNotes, './db/db.json');
   
       const response = {
         status: 'success',

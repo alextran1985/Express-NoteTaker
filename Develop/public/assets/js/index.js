@@ -27,7 +27,12 @@ const hide = (elem) => {
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
-
+/*
+fetch(urlAdress)  // Defualt is GET request --> to urlAdress
+  .then()
+  .then()
+  .catch()
+*/
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
